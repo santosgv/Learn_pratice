@@ -69,9 +69,9 @@ class InstagramBot:
         #]
         for i in pic_hrefs:
             driver.find_element_by_class_name('eLAPa').click()
-           ## nao ta cachando o elemento de curtir driver.find_element_by_xpath('//svg[@class="_8-yf5 "]')
+           ## nao ta achando o elemento de curtir driver.find_element_by_xpath('//svg[@class="_8-yf5 "]')
 
 
 vitorBot = InstagramBot(
-    "vitor_santos.g", "shutdown-hnow")
+    "login", "senha")
 vitorBot.login()
