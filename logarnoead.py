@@ -11,7 +11,7 @@ login.send_keys("ead22604732")
 
 password = driver.find_element_by_id("password")
 password.clear()
-password.send_keys("shutdown")
+password.send_keys("senha")
 #password.send_keys(Keys.RETURN) ---retorna as teclas inputadas
 
 
